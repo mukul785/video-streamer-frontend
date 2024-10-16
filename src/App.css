@@ -1,0 +1,38 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+}
+.btn{
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem;
+  cursor: pointer;
+  font-weight: 500;
+  display: block;
+}
+.vid{
+  margin-top: 20px;
+  border-radius: 10px;
+  border: rgba(0, 0, 0, 0.6);
+}
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h4{
+  display: inline-block;
+  padding: 0.5rem;
+}
+label select{
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
